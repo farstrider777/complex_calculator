@@ -21,121 +21,121 @@ var butE = document.getElementById("e-but");
 var butC = document.getElementById("c-but");
 
 
-var jshowop = document.getElementById("showop");
-var jshowop2 = document.getElementById("showop2");
+var jShowop = document.getElementById("show-op");
+var jShowop2 = document.getElementById("show-op2");
 
-var joutput1 = document.getElementById("output1");
-var joutput2 = document.getElementById("output2");
-var joutput3 = document.getElementById("output3");
+var jOutput1 = document.getElementById("output1");
+var jOutput2 = document.getElementById("output2");
+var jOutput3 = document.getElementById("output3");
 
 function but1Press(){
-  jshowop2.innerHTML = "";
-  if(joutput1.innerHTML === ""){
-    joutput1.innerHTML = 1;
-  } else if(joutput2.innerHTML === ""){
-    joutput2.innerHTML = 1;
-  } else if(joutput3.innerHTML === ""){
-    joutput3.innerHTML = 1;
+  jShowop2.innerHTML = "";
+  if(jOutput1.innerHTML === ""){
+    jOutput1.innerHTML = 1;
+  } else if(jOutput2.innerHTML === ""){
+    jOutput2.innerHTML = 1;
+  } else if(jOutput3.innerHTML === ""){
+    jOutput3.innerHTML = 1;
   }
 }
 
 
 function but2Press(){
-  jshowop2.innerHTML = "";
-  if(joutput1.innerHTML === ""){
-    joutput1.innerHTML = 2;
-  } else if(joutput2.innerHTML === ""){
-    joutput2.innerHTML = 2;
-  } else if(joutput3.innerHTML === ""){
-    joutput3.innerHTML = 2;
+  jShowop2.innerHTML = "";
+  if(jOutput1.innerHTML === ""){
+    jOutput1.innerHTML = 2;
+  } else if(jOutput2.innerHTML === ""){
+    jOutput2.innerHTML = 2;
+  } else if(jOutput3.innerHTML === ""){
+    jOutput3.innerHTML = 2;
   }
 }
 
 function but3Press(){
-  jshowop2.innerHTML = "";
-  if(joutput1.innerHTML === ""){
-    joutput1.innerHTML = 3;
-  } else if(joutput2.innerHTML === ""){
-    joutput2.innerHTML = 3;
-  } else if(joutput3.innerHTML === ""){
-    joutput3.innerHTML = 3;
+  jShowop2.innerHTML = "";
+  if(jOutput1.innerHTML === ""){
+    jOutput1.innerHTML = 3;
+  } else if(jOutput2.innerHTML === ""){
+    jOutput2.innerHTML = 3;
+  } else if(jOutput3.innerHTML === ""){
+    jOutput3.innerHTML = 3;
   }
 }
 
 function but4Press(){
-  jshowop2.innerHTML = "";
-  if(joutput1.innerHTML === ""){
-    joutput1.innerHTML = 4;
-  } else if(joutput2.innerHTML === ""){
-    joutput2.innerHTML = 4;
-  } else if(joutput3.innerHTML === ""){
-    joutput3.innerHTML = 4;
+  jShowop2.innerHTML = "";
+  if(jOutput1.innerHTML === ""){
+    jOutput1.innerHTML = 4;
+  } else if(jOutput2.innerHTML === ""){
+    jOutput2.innerHTML = 4;
+  } else if(jOutput3.innerHTML === ""){
+    jOutput3.innerHTML = 4;
   }
 }
 
 function but5Press(){
-  jshowop2.innerHTML = "";
-  if(joutput1.innerHTML === ""){
-    joutput1.innerHTML = 5;
-  } else if(joutput2.innerHTML === ""){
-    joutput2.innerHTML = 5;
-  } else if(joutput3.innerHTML === ""){
-    joutput3.innerHTML = 5;
+  jShowop2.innerHTML = "";
+  if(jOutput1.innerHTML === ""){
+    jOutput1.innerHTML = 5;
+  } else if(jOutput2.innerHTML === ""){
+    jOutput2.innerHTML = 5;
+  } else if(jOutput3.innerHTML === ""){
+    jOutput3.innerHTML = 5;
   }
 }
 
 function but6Press(){
-  jshowop2.innerHTML = "";
-  if(joutput1.innerHTML === ""){
-    joutput1.innerHTML = 6;
-  } else if(joutput2.innerHTML === ""){
-    joutput2.innerHTML = 6;
-  } else if(joutput3.innerHTML === ""){
-    joutput3.innerHTML = 6;
+  jShowop2.innerHTML = "";
+  if(jOutput1.innerHTML === ""){
+    jOutput1.innerHTML = 6;
+  } else if(jOutput2.innerHTML === ""){
+    jOutput2.innerHTML = 6;
+  } else if(jOutput3.innerHTML === ""){
+    jOutput3.innerHTML = 6;
   }
 }
 
 function but7Press(){
-  jshowop2.innerHTML = "";
-  if(joutput1.innerHTML === ""){
-    joutput1.innerHTML = 7;
-  } else if(joutput2.innerHTML === ""){
-    joutput2.innerHTML = 7;
-  } else if(joutput3.innerHTML === ""){
-    joutput3.innerHTML = 7;
+  jShowop2.innerHTML = "";
+  if(jOutput1.innerHTML === ""){
+    jOutput1.innerHTML = 7;
+  } else if(jOutput2.innerHTML === ""){
+    jOutput2.innerHTML = 7;
+  } else if(jOutput3.innerHTML === ""){
+    jOutput3.innerHTML = 7;
   }
 }
 
 function but8Press(){
-  jshowop2.innerHTML = "";
-  if(joutput1.innerHTML === ""){
-    joutput1.innerHTML = 8;
-  } else if(joutput2.innerHTML === ""){
-    joutput2.innerHTML = 8;
-  } else if(joutput3.innerHTML === ""){
-    joutput3.innerHTML = 8;
+  jShowop2.innerHTML = "";
+  if(jOutput1.innerHTML === ""){
+    jOutput1.innerHTML = 8;
+  } else if(jOutput2.innerHTML === ""){
+    jOutput2.innerHTML = 8;
+  } else if(jOutput3.innerHTML === ""){
+    jOutput3.innerHTML = 8;
   }
 }
 
 function but9Press(){
-  jshowop2.innerHTML = "";
-  if(joutput1.innerHTML === ""){
-    joutput1.innerHTML = 9;
-  } else if(joutput2.innerHTML === ""){
-    joutput2.innerHTML = 9;
-  } else if(joutput3.innerHTML === ""){
-    joutput3.innerHTML = 9;
+  jShowop2.innerHTML = "";
+  if(jOutput1.innerHTML === ""){
+    jOutput1.innerHTML = 9;
+  } else if(jOutput2.innerHTML === ""){
+    jOutput2.innerHTML = 9;
+  } else if(jOutput3.innerHTML === ""){
+    jOutput3.innerHTML = 9;
   }
 }
 
 function but0Press(){
-  jshowop2.innerHTML = "";
-  if(joutput1.innerHTML === ""){
-    joutput1.innerHTML = 0;
-  } else if(joutput2.innerHTML === ""){
-    joutput2.innerHTML = 0;
-  } else if(joutput3.innerHTML === ""){
-    joutput3.innerHTML = 0;
+  jShowop2.innerHTML = "";
+  if(jOutput1.innerHTML === ""){
+    jOutput1.innerHTML = 0;
+  } else if(jOutput2.innerHTML === ""){
+    jOutput2.innerHTML = 0;
+  } else if(jOutput3.innerHTML === ""){
+    jOutput3.innerHTML = 0;
   }
 }
 
@@ -144,171 +144,171 @@ var secondNumber;
 var operationChosen;
 
 function butPPress(){
-  if(joutput1.innerHTML === ""){
-  } else if(joutput2.innerHTML === ""){
-    firstNumber = Number(joutput1.innerHTML);
-    jshowop.innerHTML = joutput1.innerHTML + " + ";
-    joutput1.innerHTML = "";
+  if(jOutput1.innerHTML === ""){
+  } else if(jOutput2.innerHTML === ""){
+    firstNumber = Number(jOutput1.innerHTML);
+    jShowop.innerHTML = jOutput1.innerHTML + " + ";
+    jOutput1.innerHTML = "";
     operationChosen = "plus";
-  } else if(joutput3.innerHTML === ""){
-    firstNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
-    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + " + ";
-    joutput1.innerHTML = "";
-    joutput2.innerHTML = "";
+  } else if(jOutput3.innerHTML === ""){
+    firstNumber = (10 * Number(jOutput1.innerHTML)) + Number(jOutput2.innerHTML);
+    jShowop.innerHTML = jOutput1.innerHTML + jOutput2.innerHTML + " + ";
+    jOutput1.innerHTML = "";
+    jOutput2.innerHTML = "";
     operationChosen = "plus";
   } else {
-    firstNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
-    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + joutput3.innerHTML + " + ";
-    joutput1.innerHTML = "";
-    joutput2.innerHTML = "";
-    joutput3.innerHTML = "";
+    firstNumber = (100 * Number(jOutput1.innerHTML)) + (10 * Number(jOutput2.innerHTML)) + Number(jOutput3.innerHTML);
+    jShowop.innerHTML = jOutput1.innerHTML + jOutput2.innerHTML + jOutput3.innerHTML + " + ";
+    jOutput1.innerHTML = "";
+    jOutput2.innerHTML = "";
+    jOutput3.innerHTML = "";
     operationChosen = "plus"
   }
 }
 
 function butMPress(){
-  if(joutput1.innerHTML === ""){
-  } else if(joutput2.innerHTML === ""){
-    firstNumber = Number(joutput1.innerHTML);
-    jshowop.innerHTML = joutput1.innerHTML + " - ";
-    joutput1.innerHTML = "";
+  if(jOutput1.innerHTML === ""){
+  } else if(jOutput2.innerHTML === ""){
+    firstNumber = Number(jOutput1.innerHTML);
+    jShowop.innerHTML = jOutput1.innerHTML + " - ";
+    jOutput1.innerHTML = "";
     operationChosen = "minus";
-  } else if(joutput3.innerHTML === ""){
-    firstNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
-    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + " - ";
-    joutput1.innerHTML = "";
-    joutput2.innerHTML = "";
+  } else if(jOutput3.innerHTML === ""){
+    firstNumber = (10 * Number(jOutput1.innerHTML)) + Number(jOutput2.innerHTML);
+    jShowop.innerHTML = jOutput1.innerHTML + jOutput2.innerHTML + " - ";
+    jOutput1.innerHTML = "";
+    jOutput2.innerHTML = "";
     operationChosen = "minus";
   } else {
-    firstNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
-    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + joutput2.innerHTML + " - ";
-    joutput1.innerHTML = "";
-    joutput2.innerHTML = "";
-    joutput3.innerHTML = "";
+    firstNumber = (100 * Number(jOutput1.innerHTML)) + (10 * Number(jOutput2.innerHTML)) + Number(jOutput3.innerHTML);
+    jShowop.innerHTML = jOutput1.innerHTML + jOutput2.innerHTML + jOutput2.innerHTML + " - ";
+    jOutput1.innerHTML = "";
+    jOutput2.innerHTML = "";
+    jOutput3.innerHTML = "";
     operationChosen = "minus"
   }
 }
 
 function butMtPress(){
-  if(joutput1.innerHTML === ""){
-  } else if(joutput2.innerHTML === ""){
-    firstNumber = Number(joutput1.innerHTML);
-    jshowop.innerHTML = joutput1.innerHTML + " * ";
-    joutput1.innerHTML = "";
+  if(jOutput1.innerHTML === ""){
+  } else if(jOutput2.innerHTML === ""){
+    firstNumber = Number(jOutput1.innerHTML);
+    jShowop.innerHTML = jOutput1.innerHTML + " * ";
+    jOutput1.innerHTML = "";
     operationChosen = "multiply";
-  } else if(joutput3.innerHTML === ""){
-    firstNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
-    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + " * ";
-    joutput1.innerHTML = "";
-    joutput2.innerHTML = "";
+  } else if(jOutput3.innerHTML === ""){
+    firstNumber = (10 * Number(jOutput1.innerHTML)) + Number(jOutput2.innerHTML);
+    jShowop.innerHTML = jOutput1.innerHTML + jOutput2.innerHTML + " * ";
+    jOutput1.innerHTML = "";
+    jOutput2.innerHTML = "";
     operationChosen = "multiply";
   } else {
-    firstNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
-    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + joutput3.innerHTML + " * ";
-    joutput1.innerHTML = "";
-    joutput2.innerHTML = "";
-    joutput3.innerHTML = "";
+    firstNumber = (100 * Number(jOutput1.innerHTML)) + (10 * Number(jOutput2.innerHTML)) + Number(jOutput3.innerHTML);
+    jShowop.innerHTML = jOutput1.innerHTML + jOutput2.innerHTML + jOutput3.innerHTML + " * ";
+    jOutput1.innerHTML = "";
+    jOutput2.innerHTML = "";
+    jOutput3.innerHTML = "";
     operationChosen = "multiply"
   }
 }
 
 function butDPress(){
-  if(joutput1.innerHTML === ""){
-  } else if(joutput2.innerHTML === ""){
-    firstNumber = Number(joutput1.innerHTML);
-    jshowop.innerHTML = joutput1.innerHTML + " / ";
-    joutput1.innerHTML = "";
+  if(jOutput1.innerHTML === ""){
+  } else if(jOutput2.innerHTML === ""){
+    firstNumber = Number(jOutput1.innerHTML);
+    jShowop.innerHTML = jOutput1.innerHTML + " / ";
+    jOutput1.innerHTML = "";
     operationChosen = "divide";
-  } else if(joutput3.innerHTML === ""){
-    firstNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
-    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + " / ";
-    joutput1.innerHTML = "";
-    joutput2.innerHTML = "";
+  } else if(jOutput3.innerHTML === ""){
+    firstNumber = (10 * Number(jOutput1.innerHTML)) + Number(jOutput2.innerHTML);
+    jShowop.innerHTML = jOutput1.innerHTML + jOutput2.innerHTML + " / ";
+    jOutput1.innerHTML = "";
+    jOutput2.innerHTML = "";
     operationChosen = "divide";
   } else {
-    firstNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
-    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + joutput3.innerHTML + " / ";
-    joutput1.innerHTML = "";
-    joutput2.innerHTML = "";
-    joutput3.innerHTML = "";
+    firstNumber = (100 * Number(jOutput1.innerHTML)) + (10 * Number(jOutput2.innerHTML)) + Number(jOutput3.innerHTML);
+    jShowop.innerHTML = jOutput1.innerHTML + jOutput2.innerHTML + jOutput3.innerHTML + " / ";
+    jOutput1.innerHTML = "";
+    jOutput2.innerHTML = "";
+    jOutput3.innerHTML = "";
     operationChosen = "divide"
   }
 }
 
 function butEPress(){
   if(operationChosen === "plus"){
-    if(joutput1.innerHTML === ""){
-    } else if(joutput2.innerHTML === ""){
-      secondNumber = Number(joutput1.innerHTML);
-    } else if(joutput3.innerHTML === ""){
-      secondNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    if(jOutput1.innerHTML === ""){
+    } else if(jOutput2.innerHTML === ""){
+      secondNumber = Number(jOutput1.innerHTML);
+    } else if(jOutput3.innerHTML === ""){
+      secondNumber = (10 * Number(jOutput1.innerHTML)) + Number(jOutput2.innerHTML);
     } else {
-      secondNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+      secondNumber = (100 * Number(jOutput1.innerHTML)) + (10 * Number(jOutput2.innerHTML)) + Number(jOutput3.innerHTML);
     }
-    jshowop2.innerHTML = firstNumber + secondNumber;
-    jshowop.innerHTML = "";
-    joutput1.innerHTML = "";
-    joutput2.innerHTML = "";
-    joutput3.innerHTML = "";
+    jShowop2.innerHTML = firstNumber + secondNumber;
+    jShowop.innerHTML = "";
+    jOutput1.innerHTML = "";
+    jOutput2.innerHTML = "";
+    jOutput3.innerHTML = "";
     firstNumber = 0;
     secondNumber = 0;
   }else if(operationChosen === "minus"){
-    if(joutput1.innerHTML === ""){
-    } else if(joutput2.innerHTML === ""){
-      secondNumber = Number(joutput1.innerHTML);
-    } else if(joutput3.innerHTML === ""){
-      secondNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    if(jOutput1.innerHTML === ""){
+    } else if(jOutput2.innerHTML === ""){
+      secondNumber = Number(jOutput1.innerHTML);
+    } else if(jOutput3.innerHTML === ""){
+      secondNumber = (10 * Number(jOutput1.innerHTML)) + Number(jOutput2.innerHTML);
     } else {
-      secondNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+      secondNumber = (100 * Number(jOutput1.innerHTML)) + (10 * Number(jOutput2.innerHTML)) + Number(jOutput3.innerHTML);
     }
-    jshowop2.innerHTML = firstNumber - secondNumber;
-    jshowop.innerHTML = "";
-    joutput1.innerHTML = "";
-    joutput2.innerHTML = "";
-    joutput3.innerHTML = "";
+    jShowop2.innerHTML = firstNumber - secondNumber;
+    jShowop.innerHTML = "";
+    jOutput1.innerHTML = "";
+    jOutput2.innerHTML = "";
+    jOutput3.innerHTML = "";
     firstNumber = 0;
     secondNumber = 0;
   } else if(operationChosen === "multiply"){
-    if(joutput1.innerHTML === ""){
-    } else if(joutput2.innerHTML === ""){
-      secondNumber = Number(joutput1.innerHTML);
-    } else if(joutput3.innerHTML === ""){
-      secondNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    if(jOutput1.innerHTML === ""){
+    } else if(jOutput2.innerHTML === ""){
+      secondNumber = Number(jOutput1.innerHTML);
+    } else if(jOutput3.innerHTML === ""){
+      secondNumber = (10 * Number(jOutput1.innerHTML)) + Number(jOutput2.innerHTML);
     } else {
-      secondNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+      secondNumber = (100 * Number(jOutput1.innerHTML)) + (10 * Number(jOutput2.innerHTML)) + Number(jOutput3.innerHTML);
     }
-    jshowop2.innerHTML = firstNumber * secondNumber;
-    jshowop.innerHTML = "";
-    joutput1.innerHTML = "";
-    joutput2.innerHTML = "";
-    joutput3.innerHTML = "";
+    jShowop2.innerHTML = firstNumber * secondNumber;
+    jShowop.innerHTML = "";
+    jOutput1.innerHTML = "";
+    jOutput2.innerHTML = "";
+    jOutput3.innerHTML = "";
     firstNumber = 0;
     secondNumber = 0;
   } else if(operationChosen === "divide"){
-    if(joutput1.innerHTML === ""){
-    } else if(joutput2.innerHTML === ""){
-      secondNumber = Number(joutput1.innerHTML);
-    } else if(joutput3.innerHTML === ""){
-      secondNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    if(jOutput1.innerHTML === ""){
+    } else if(jOutput2.innerHTML === ""){
+      secondNumber = Number(jOutput1.innerHTML);
+    } else if(jOutput3.innerHTML === ""){
+      secondNumber = (10 * Number(jOutput1.innerHTML)) + Number(jOutput2.innerHTML);
     } else {
-      secondNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+      secondNumber = (100 * Number(jOutput1.innerHTML)) + (10 * Number(jOutput2.innerHTML)) + Number(jOutput3.innerHTML);
     }
-    jshowop2.innerHTML = firstNumber / secondNumber;
-    jshowop.innerHTML = "";
-    joutput1.innerHTML = "";
-    joutput2.innerHTML = "";
-    joutput3.innerHTML = "";
+    jShowop2.innerHTML = firstNumber / secondNumber;
+    jShowop.innerHTML = "";
+    jOutput1.innerHTML = "";
+    jOutput2.innerHTML = "";
+    jOutput3.innerHTML = "";
     firstNumber = 0;
     secondNumber = 0;
   }
 }
 
 function butCPress(){
-  joutput1.innerHTML = "";
-  joutput2.innerHTML = "";
-  joutput3.innerHTML = "";
-  jshowop.innerHTML = "";
-  jshowop2.innerHTML = "";
+  jOutput1.innerHTML = "";
+  jOutput2.innerHTML = "";
+  jOutput3.innerHTML = "";
+  jShowop.innerHTML = "";
+  jShowop2.innerHTML = "";
   firstNumber = 0;
   secondNumber = 0;
   operationChosen = "none";
