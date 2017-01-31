@@ -96,7 +96,7 @@ function but8Press(){
   }
 }
 
-function but3Press(){
+function but9Press(){
   if(joutput1.innerHTML === ""){
     joutput1.innerHTML = 9;
   } else if(joutput2.innerHTML === ""){
