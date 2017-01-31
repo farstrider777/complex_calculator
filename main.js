@@ -15,6 +15,8 @@ var but0 = document.getElementById("0-but");
 var butP = document.getElementById("p-but");
 var butE = document.getElementById("e-but");
 
+var butC = document.getElementById("c-but");
+
 
 
 var joutput1 = document.getElementById("output1");
@@ -160,9 +162,13 @@ function butEPress(){
     }
     console.log(firstNumber + secondNumber)
   }
-
-
 }
+
+function butCPress(){
+  joutput1.innerHTML = "";
+  joutput2.innerHTML = "";
+  joutput3.innerHTML = "";
+  }
 
 but1.addEventListener('click', but1Press);
 but2.addEventListener('click', but2Press);
@@ -176,3 +182,4 @@ but9.addEventListener('click', but9Press);
 but0.addEventListener('click', but0Press);
 butP.addEventListener('click', butPPress);
 butE.addEventListener('click', butEPress);
+butC.addEventListener('click', butCPress);
