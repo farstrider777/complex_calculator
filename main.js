@@ -250,6 +250,8 @@ function butEPress(){
     joutput1.innerHTML = "";
     joutput2.innerHTML = "";
     joutput3.innerHTML = "";
+    firstNumber = 0;
+    secondNumber = 0;
   }else if(operationChosen === "minus"){
     if(joutput1.innerHTML === ""){
     } else if(joutput2.innerHTML === ""){
@@ -264,6 +266,8 @@ function butEPress(){
     joutput1.innerHTML = "";
     joutput2.innerHTML = "";
     joutput3.innerHTML = "";
+    firstNumber = 0;
+    secondNumber = 0;
   } else if(operationChosen === "multiply"){
     if(joutput1.innerHTML === ""){
     } else if(joutput2.innerHTML === ""){
@@ -278,6 +282,8 @@ function butEPress(){
     joutput1.innerHTML = "";
     joutput2.innerHTML = "";
     joutput3.innerHTML = "";
+    firstNumber = 0;
+    secondNumber = 0;
   } else if(operationChosen === "divide"){
     if(joutput1.innerHTML === ""){
     } else if(joutput2.innerHTML === ""){
@@ -292,6 +298,8 @@ function butEPress(){
     joutput1.innerHTML = "";
     joutput2.innerHTML = "";
     joutput3.innerHTML = "";
+    firstNumber = 0;
+    secondNumber = 0;
   }
 }
 
