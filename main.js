@@ -11,6 +11,12 @@ var but7 = document.getElementById("7-but");
 var but8 = document.getElementById("8-but");
 var but9 = document.getElementById("9-but");
 
+var but0 = document.getElementById("0-but");
+var butP = document.getElementById("p-but");
+var butM = document.getElementById("m-but");
+
+
+
 var joutput1 = document.getElementById("output1");
 var joutput2 = document.getElementById("output2");
 var joutput3 = document.getElementById("output3");
@@ -106,6 +112,28 @@ function but9Press(){
   }
 }
 
+function but0Press(){
+  if(joutput1.innerHTML === ""){
+    joutput1.innerHTML = 0;
+  } else if(joutput2.innerHTML === ""){
+    joutput2.innerHTML = 0;
+  } else if(joutput3.innerHTML === ""){
+    joutput3.innerHTML = 0;
+  }
+}
+
+var firstNumber;
+
+function butPPress(){
+  if(joutput1.innerHTML === ""){
+    joutput1.innerHTML === "push a number first";
+  }
+}
+
+function butMPress(){
+
+}
+
 but1.addEventListener('click', but1Press);
 but2.addEventListener('click', but2Press);
 but3.addEventListener('click', but3Press);
@@ -115,3 +143,6 @@ but6.addEventListener('click', but6Press);
 but7.addEventListener('click', but7Press);
 but8.addEventListener('click', but8Press);
 but9.addEventListener('click', but9Press);
+but0.addEventListener('click', but0Press);
+butP.addEventListener('click', butPPress);
+butM.addEventListener('click', butMPress);
