@@ -13,7 +13,7 @@ var but9 = document.getElementById("9-but");
 
 var but0 = document.getElementById("0-but");
 var butP = document.getElementById("p-but");
-var butM = document.getElementById("m-but");
+var butE = document.getElementById("e-but");
 
 
 
@@ -123,14 +123,44 @@ function but0Press(){
 }
 
 var firstNumber;
+var secondNumber;
+var operationChosen;
 
 function butPPress(){
   if(joutput1.innerHTML === ""){
-    joutput1.innerHTML === "push a number first";
+  } else if(joutput2.innerHTML === ""){
+    firstNumber = Number(joutput1.innerHTML);
+    joutput1.innerHTML = "";
+    operationChosen = "plus";
+  } else if(joutput3.innerHTML === ""){
+    firstNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    joutput1.innerHTML = "";
+    joutput2.innerHTML = "";
+    operationChosen = "plus";
+  } else {
+    firstNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+    joutput1.innerHTML = "";
+    joutput2.innerHTML = "";
+    joutput3.innerHTML = "";
+    operationChosen = "plus"
   }
 }
 
-function butMPress(){
+
+
+function butEPress(){
+  if(operationChosen === "plus"){
+    if(joutput1.innerHTML === ""){
+    } else if(joutput2.innerHTML === ""){
+      secondNumber = Number(joutput1.innerHTML);
+    } else if(joutput3.innerHTML === ""){
+      secondNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    } else {
+      secondNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+    }
+    console.log(firstNumber + secondNumber)
+  }
+
 
 }
 
@@ -145,4 +175,4 @@ but8.addEventListener('click', but8Press);
 but9.addEventListener('click', but9Press);
 but0.addEventListener('click', but0Press);
 butP.addEventListener('click', butPPress);
-butM.addEventListener('click', butMPress);
+butE.addEventListener('click', butEPress);
