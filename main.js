@@ -15,8 +15,11 @@ var but0 = document.getElementById("0-but");
 var butP = document.getElementById("p-but");
 var butM = document.getElementById("m-but");
 
-var butC = document.getElementById("c-but");
+var butMt = document.getElementById("mt-but");
+var butD = document.getElementById("d-but");
 var butE = document.getElementById("e-but");
+var butC = document.getElementById("c-but");
+
 
 
 
@@ -169,6 +172,46 @@ function butMPress(){
   }
 }
 
+function butMtPress(){
+  if(joutput1.innerHTML === ""){
+  } else if(joutput2.innerHTML === ""){
+    firstNumber = Number(joutput1.innerHTML);
+    joutput1.innerHTML = "";
+    operationChosen = "multiply";
+  } else if(joutput3.innerHTML === ""){
+    firstNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    joutput1.innerHTML = "";
+    joutput2.innerHTML = "";
+    operationChosen = "multiply";
+  } else {
+    firstNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+    joutput1.innerHTML = "";
+    joutput2.innerHTML = "";
+    joutput3.innerHTML = "";
+    operationChosen = "multiply"
+  }
+}
+
+function butDPress(){
+  if(joutput1.innerHTML === ""){
+  } else if(joutput2.innerHTML === ""){
+    firstNumber = Number(joutput1.innerHTML);
+    joutput1.innerHTML = "";
+    operationChosen = "divide";
+  } else if(joutput3.innerHTML === ""){
+    firstNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    joutput1.innerHTML = "";
+    joutput2.innerHTML = "";
+    operationChosen = "divide";
+  } else {
+    firstNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+    joutput1.innerHTML = "";
+    joutput2.innerHTML = "";
+    joutput3.innerHTML = "";
+    operationChosen = "divide"
+  }
+}
+
 function butEPress(){
   if(operationChosen === "plus"){
     if(joutput1.innerHTML === ""){
@@ -190,6 +233,26 @@ function butEPress(){
       secondNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
     }
     console.log(firstNumber - secondNumber)
+  } else if(operationChosen === "multiply"){
+    if(joutput1.innerHTML === ""){
+    } else if(joutput2.innerHTML === ""){
+      secondNumber = Number(joutput1.innerHTML);
+    } else if(joutput3.innerHTML === ""){
+      secondNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    } else {
+      secondNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+    }
+    console.log(firstNumber * secondNumber)
+  } else if(operationChosen === "divide"){
+    if(joutput1.innerHTML === ""){
+    } else if(joutput2.innerHTML === ""){
+      secondNumber = Number(joutput1.innerHTML);
+    } else if(joutput3.innerHTML === ""){
+      secondNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    } else {
+      secondNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+    }
+    console.log(firstNumber / secondNumber)
   }
 }
 
@@ -211,5 +274,7 @@ but9.addEventListener('click', but9Press);
 but0.addEventListener('click', but0Press);
 butP.addEventListener('click', butPPress);
 butM.addEventListener('click', butMPress);
+butMt.addEventListener('click', butMtPress);
+butD.addEventListener('click', butDPress);
 butE.addEventListener('click', butEPress);
 butC.addEventListener('click', butCPress);
