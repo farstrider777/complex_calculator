@@ -21,13 +21,15 @@ var butE = document.getElementById("e-but");
 var butC = document.getElementById("c-but");
 
 
-
+var jshowop = document.getElementById("showop");
+var jshowop2 = document.getElementById("showop2");
 
 var joutput1 = document.getElementById("output1");
 var joutput2 = document.getElementById("output2");
 var joutput3 = document.getElementById("output3");
 
 function but1Press(){
+  jshowop2.innerHTML = "";
   if(joutput1.innerHTML === ""){
     joutput1.innerHTML = 1;
   } else if(joutput2.innerHTML === ""){
@@ -39,6 +41,7 @@ function but1Press(){
 
 
 function but2Press(){
+  jshowop2.innerHTML = "";
   if(joutput1.innerHTML === ""){
     joutput1.innerHTML = 2;
   } else if(joutput2.innerHTML === ""){
@@ -49,6 +52,7 @@ function but2Press(){
 }
 
 function but3Press(){
+  jshowop2.innerHTML = "";
   if(joutput1.innerHTML === ""){
     joutput1.innerHTML = 3;
   } else if(joutput2.innerHTML === ""){
@@ -59,6 +63,7 @@ function but3Press(){
 }
 
 function but4Press(){
+  jshowop2.innerHTML = "";
   if(joutput1.innerHTML === ""){
     joutput1.innerHTML = 4;
   } else if(joutput2.innerHTML === ""){
@@ -69,6 +74,7 @@ function but4Press(){
 }
 
 function but5Press(){
+  jshowop2.innerHTML = "";
   if(joutput1.innerHTML === ""){
     joutput1.innerHTML = 5;
   } else if(joutput2.innerHTML === ""){
@@ -79,6 +85,7 @@ function but5Press(){
 }
 
 function but6Press(){
+  jshowop2.innerHTML = "";
   if(joutput1.innerHTML === ""){
     joutput1.innerHTML = 6;
   } else if(joutput2.innerHTML === ""){
@@ -89,6 +96,7 @@ function but6Press(){
 }
 
 function but7Press(){
+  jshowop2.innerHTML = "";
   if(joutput1.innerHTML === ""){
     joutput1.innerHTML = 7;
   } else if(joutput2.innerHTML === ""){
@@ -99,6 +107,7 @@ function but7Press(){
 }
 
 function but8Press(){
+  jshowop2.innerHTML = "";
   if(joutput1.innerHTML === ""){
     joutput1.innerHTML = 8;
   } else if(joutput2.innerHTML === ""){
@@ -109,6 +118,7 @@ function but8Press(){
 }
 
 function but9Press(){
+  jshowop2.innerHTML = "";
   if(joutput1.innerHTML === ""){
     joutput1.innerHTML = 9;
   } else if(joutput2.innerHTML === ""){
@@ -119,6 +129,7 @@ function but9Press(){
 }
 
 function but0Press(){
+  jshowop2.innerHTML = "";
   if(joutput1.innerHTML === ""){
     joutput1.innerHTML = 0;
   } else if(joutput2.innerHTML === ""){
@@ -136,15 +147,18 @@ function butPPress(){
   if(joutput1.innerHTML === ""){
   } else if(joutput2.innerHTML === ""){
     firstNumber = Number(joutput1.innerHTML);
+    jshowop.innerHTML = joutput1.innerHTML + " + ";
     joutput1.innerHTML = "";
     operationChosen = "plus";
   } else if(joutput3.innerHTML === ""){
     firstNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + " + ";
     joutput1.innerHTML = "";
     joutput2.innerHTML = "";
     operationChosen = "plus";
   } else {
     firstNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + joutput3.innerHTML + " + ";
     joutput1.innerHTML = "";
     joutput2.innerHTML = "";
     joutput3.innerHTML = "";
@@ -156,15 +170,18 @@ function butMPress(){
   if(joutput1.innerHTML === ""){
   } else if(joutput2.innerHTML === ""){
     firstNumber = Number(joutput1.innerHTML);
+    jshowop.innerHTML = joutput1.innerHTML + " - ";
     joutput1.innerHTML = "";
     operationChosen = "minus";
   } else if(joutput3.innerHTML === ""){
     firstNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + " - ";
     joutput1.innerHTML = "";
     joutput2.innerHTML = "";
     operationChosen = "minus";
   } else {
     firstNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + joutput2.innerHTML + " - ";
     joutput1.innerHTML = "";
     joutput2.innerHTML = "";
     joutput3.innerHTML = "";
@@ -176,15 +193,18 @@ function butMtPress(){
   if(joutput1.innerHTML === ""){
   } else if(joutput2.innerHTML === ""){
     firstNumber = Number(joutput1.innerHTML);
+    jshowop.innerHTML = joutput1.innerHTML + " * ";
     joutput1.innerHTML = "";
     operationChosen = "multiply";
   } else if(joutput3.innerHTML === ""){
     firstNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + " * ";
     joutput1.innerHTML = "";
     joutput2.innerHTML = "";
     operationChosen = "multiply";
   } else {
     firstNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + joutput3.innerHTML + " * ";
     joutput1.innerHTML = "";
     joutput2.innerHTML = "";
     joutput3.innerHTML = "";
@@ -196,15 +216,18 @@ function butDPress(){
   if(joutput1.innerHTML === ""){
   } else if(joutput2.innerHTML === ""){
     firstNumber = Number(joutput1.innerHTML);
+    jshowop.innerHTML = joutput1.innerHTML + " / ";
     joutput1.innerHTML = "";
     operationChosen = "divide";
   } else if(joutput3.innerHTML === ""){
     firstNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + " / ";
     joutput1.innerHTML = "";
     joutput2.innerHTML = "";
     operationChosen = "divide";
   } else {
     firstNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+    jshowop.innerHTML = joutput1.innerHTML + joutput2.innerHTML + joutput3.innerHTML + " / ";
     joutput1.innerHTML = "";
     joutput2.innerHTML = "";
     joutput3.innerHTML = "";
@@ -222,7 +245,11 @@ function butEPress(){
     } else {
       secondNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
     }
-    console.log(firstNumber + secondNumber)
+    jshowop2.innerHTML = firstNumber + secondNumber;
+    jshowop.innerHTML = "";
+    joutput1.innerHTML = "";
+    joutput2.innerHTML = "";
+    joutput3.innerHTML = "";
   }else if(operationChosen === "minus"){
     if(joutput1.innerHTML === ""){
     } else if(joutput2.innerHTML === ""){
@@ -232,7 +259,11 @@ function butEPress(){
     } else {
       secondNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
     }
-    console.log(firstNumber - secondNumber)
+    jshowop2.innerHTML = firstNumber - secondNumber;
+    jshowop.innerHTML = "";
+    joutput1.innerHTML = "";
+    joutput2.innerHTML = "";
+    joutput3.innerHTML = "";
   } else if(operationChosen === "multiply"){
     if(joutput1.innerHTML === ""){
     } else if(joutput2.innerHTML === ""){
@@ -242,7 +273,11 @@ function butEPress(){
     } else {
       secondNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
     }
-    console.log(firstNumber * secondNumber)
+    jshowop2.innerHTML = firstNumber * secondNumber;
+    jshowop.innerHTML = "";
+    joutput1.innerHTML = "";
+    joutput2.innerHTML = "";
+    joutput3.innerHTML = "";
   } else if(operationChosen === "divide"){
     if(joutput1.innerHTML === ""){
     } else if(joutput2.innerHTML === ""){
@@ -252,7 +287,11 @@ function butEPress(){
     } else {
       secondNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
     }
-    console.log(firstNumber / secondNumber)
+    jshowop2.innerHTML = firstNumber / secondNumber;
+    jshowop.innerHTML = "";
+    joutput1.innerHTML = "";
+    joutput2.innerHTML = "";
+    joutput3.innerHTML = "";
   }
 }
 
@@ -260,6 +299,11 @@ function butCPress(){
   joutput1.innerHTML = "";
   joutput2.innerHTML = "";
   joutput3.innerHTML = "";
+  jshowop.innerHTML = "";
+  jshowop2.innerHTML = "";
+  firstNumber = 0;
+  secondNumber = 0;
+  operationChosen = "none";
   }
 
 but1.addEventListener('click', but1Press);
