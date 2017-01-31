@@ -13,9 +13,10 @@ var but9 = document.getElementById("9-but");
 
 var but0 = document.getElementById("0-but");
 var butP = document.getElementById("p-but");
-var butE = document.getElementById("e-but");
+var butM = document.getElementById("m-but");
 
 var butC = document.getElementById("c-but");
+var butE = document.getElementById("e-but");
 
 
 
@@ -148,7 +149,25 @@ function butPPress(){
   }
 }
 
-
+function butMPress(){
+  if(joutput1.innerHTML === ""){
+  } else if(joutput2.innerHTML === ""){
+    firstNumber = Number(joutput1.innerHTML);
+    joutput1.innerHTML = "";
+    operationChosen = "minus";
+  } else if(joutput3.innerHTML === ""){
+    firstNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    joutput1.innerHTML = "";
+    joutput2.innerHTML = "";
+    operationChosen = "minus";
+  } else {
+    firstNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+    joutput1.innerHTML = "";
+    joutput2.innerHTML = "";
+    joutput3.innerHTML = "";
+    operationChosen = "minus"
+  }
+}
 
 function butEPress(){
   if(operationChosen === "plus"){
@@ -161,6 +180,16 @@ function butEPress(){
       secondNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
     }
     console.log(firstNumber + secondNumber)
+  }else if(operationChosen === "minus"){
+    if(joutput1.innerHTML === ""){
+    } else if(joutput2.innerHTML === ""){
+      secondNumber = Number(joutput1.innerHTML);
+    } else if(joutput3.innerHTML === ""){
+      secondNumber = (10 * Number(joutput1.innerHTML)) + Number(joutput2.innerHTML);
+    } else {
+      secondNumber = (100 * Number(joutput1.innerHTML)) + (10 * Number(joutput2.innerHTML)) + Number(joutput3.innerHTML);
+    }
+    console.log(firstNumber - secondNumber)
   }
 }
 
@@ -181,5 +210,6 @@ but8.addEventListener('click', but8Press);
 but9.addEventListener('click', but9Press);
 but0.addEventListener('click', but0Press);
 butP.addEventListener('click', butPPress);
+butM.addEventListener('click', butMPress);
 butE.addEventListener('click', butEPress);
 butC.addEventListener('click', butCPress);
